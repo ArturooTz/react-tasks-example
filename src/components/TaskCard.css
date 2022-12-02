@@ -1,0 +1,35 @@
+.task-card{
+    border: solid 1px #4b4b4b;
+    border-radius: 30px;
+    padding: 15px;
+    position: relative;
+    width: 500px;
+    background: #30465f;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.task-card h3{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 40px;
+    color: white;
+}
+
+.task-card p{
+    margin-top: 0;
+    color: white;
+}
+
+.task-card button{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border: solid 1px white;
+    background: white;
+    cursor: pointer;
+}
+.task-card button:hover {
+    background: red;
+    color: white;
+}
